@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 5px;
+}
+
+input {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.eye-btn {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+#toggleBtn.active {
+    background-color: lightgreen;
+}
+
+#checkBtn {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    font-weight: bold;
+}
